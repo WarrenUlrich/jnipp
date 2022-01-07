@@ -27,5 +27,3 @@ target_include_directories(jnipp INTERFACE
 )
 
 target_link_libraries(jnipp INTERFACE "${JDK_LOCATION}/lib/jvm.lib")
-
-add_subdirectory("app")
